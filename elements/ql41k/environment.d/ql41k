@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export QL41K_REPO=${DIB_QL41K_REPO:?"A repo URL for QL41K packages is required"}
+export QL41K_VERSION=${DIB_QL41K_VERSION:?"A revision of QL41K packages is required"}
+export QL41K_PKGLIST=${DIB_QL41K_PKGLIST:-"kmod-qlgc-fastlinq-8.37.30.0-1.rhel7u6.x86_64"}
+export QL41K_DELETE_REPO=${DIB_QL41K_DELETE_REPO:-y}
