@@ -9,11 +9,11 @@ set -o pipefail
 [ -d /etc/yum.repos.d ] || exit -1
 
 cat > /etc/yum.repos.d/QL41K.repo << EOF
-[QL41K-$QL41K_VERSION]        
-name=QL41K-$QL41K_VERSION        
-type=rpm-md        
+[QL41K-$QL41K_VERSION]
+name=QL41K-$QL41K_VERSION
+type=rpm-md
 baseurl=$QL41K_REPO/RPMS
-gpgcheck=1        
+gpgcheck=1
 gpgkey=$QL41K_REPO/RPM-GPG-QLGC-KEY
-enabled=1        
+enabled=1
 EOF
