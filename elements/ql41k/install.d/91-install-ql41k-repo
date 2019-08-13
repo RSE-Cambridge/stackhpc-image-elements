@@ -14,6 +14,6 @@ name=QL41K-$QL41K_VERSION
 type=rpm-md
 baseurl=$QL41K_REPO/RPMS
 gpgcheck=1
-gpgkey=$QL41K_REPO/RPM-GPG-QLGC-KEY
+gpgkey=$QL41K_REPO/RPMS/RPM-GPG-QLGC-KEY
 enabled=1
 EOF
