@@ -6,4 +6,4 @@ fi
 set -eu
 set -o pipefail
 
-yum install -C y $QL41K_PKGLIST
+yum install -C -y $QL41K_PKGLIST
